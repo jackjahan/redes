@@ -1,0 +1,47 @@
+1.1
+
+O mais interessante é o artigo “Mininet-WiFi: Emulating software-defined wireless networks” feito por: Ramon R. Fontes, Samira Afzal, Samuel H. B. Brito, Mateus A. S. Santos e Christian Esteve Rothenberg, pois o artigo mostra algumas diferenças entre o mininet e o mininet wi-fi, descreve suas funcionalidades,e mostra o motivo que levou a criação do mininet wi-fi.
+
+2.1
+
+o atraso deu 0,113 ms e não houve perda de pacote pois estão no mesmo ponto de acesso.
+
+2.2
+
+Results: ['10.5 Mbits/sec', '10.6 Mbits/sec']
+2.3
+TxPower:[14] frequencia do sinal enviado. 
+Wlan:[sta1-wlan0] rede atual conectada
+IP:[10.0.0.1/8] endereço de ip
+Range: alcance da rede.
+Mac:[02:00:00:00:00:00] Media Access Control é o endereço físico.
+Frequency:[2.412] frequência do sinal enviado.
+Mode:  modelo de funcionamento da rede.
+AntennaHeight: altura da antena
+Position: [1.0, 0.0, 0.0] posicão
+Channel: canal
+Rssi:  nivel do sinal 
+
+3.1 
+O que está incomunicável é o sta3, ele está muito longe do ponto de acesso. Ele não esta associado ao AP1
+
+3.2
+usado: LogDistancePropagationLossModel . O sinal marcava -48 dBm, depois de mudar caiu para -62 dBm
+
+3.3
+ambiente sem interferência, para um melhor sinal.
+
+4.2
+É um comando que funciona com o intuito de detectar a energia passada no canal e se ela ultrapassar o limite do CCA, o pacote não será enviado.
+
+5.1
+Não, o sinal foi cortado pois STA1 saiu do alcance do ponto de acesso.
+
+5.2
+Handover. Ele faz uma busca pelo ponto de acesso mais viável assim podendo se locomover sem perder sinal.
+
+6.1
+Não conseguem uma comunicação pois estão fora do alcance da rede.
+
+6.3
+Em modelos reais onde precisam ter uma precisão maior.
